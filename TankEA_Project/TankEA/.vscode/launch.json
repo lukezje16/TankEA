@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "TankEA (Debug)",
+			"request": "launch",
+			"preLaunchTask": "TankEA Win64 Debug Build",
+			"program": "E:\\TankEA\\TankEA_Project\\TankEA\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "E:\\1_uni work\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\1_uni work\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TankEA (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "TankEA Win64 DebugGame Build",
+			"program": "E:\\TankEA\\TankEA_Project\\TankEA\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "E:\\1_uni work\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\1_uni work\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TankEA (Development)",
+			"request": "launch",
+			"preLaunchTask": "TankEA Win64 Development Build",
+			"program": "E:\\TankEA\\TankEA_Project\\TankEA\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "E:\\1_uni work\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\1_uni work\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TankEA (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "TankEA Win64 Shipping Build",
+			"program": "E:\\TankEA\\TankEA_Project\\TankEA\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "E:\\1_uni work\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\1_uni work\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TankEA (Test)",
+			"request": "launch",
+			"preLaunchTask": "TankEA Win64 Test Build",
+			"program": "E:\\TankEA\\TankEA_Project\\TankEA\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "E:\\1_uni work\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\1_uni work\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TankEAEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "TankEAEditor Win64 Debug Build",
+			"program": "E:\\1_uni work\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"E:\\TankEA\\TankEA_Project\\TankEA\\TankEA.uproject"
+			],
+			"cwd": "E:\\1_uni work\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\1_uni work\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TankEAEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "TankEAEditor Win64 DebugGame Build",
+			"program": "E:\\1_uni work\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"E:\\TankEA\\TankEA_Project\\TankEA\\TankEA.uproject"
+			],
+			"cwd": "E:\\1_uni work\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\1_uni work\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TankEAEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "TankEAEditor Win64 Development Build",
+			"program": "E:\\1_uni work\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"E:\\TankEA\\TankEA_Project\\TankEA\\TankEA.uproject"
+			],
+			"cwd": "E:\\1_uni work\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\1_uni work\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "E:\\1_uni work\\UE_4.23\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"E:\\TankEA\\TankEA_Project\\TankEA\\TankEA.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "E:\\1_uni work\\UE_4.23"
+		}
+	]
+}

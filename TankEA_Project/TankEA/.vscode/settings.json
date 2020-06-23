@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"E:/TankEA/TankEA_Project/TankEA/.vscode": true,
+		"E:/TankEA/TankEA_Project/TankEA/Content": true,
+		"E:/TankEA/TankEA_Project/TankEA/Intermediate": true
+	}
+}

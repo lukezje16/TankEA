@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TankEA.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\TankEA\TankEA_Project\TankEA\Intermediate\Build\Win64\TankEAEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\TankEA\TankEA_Project\TankEA\Intermediate\Build\Win64\UE4Editor\Development\TankEA\TankEA.cpp.obj"
+"E:\TankEA\TankEA_Project\TankEA\Intermediate\Build\Win64\UE4Editor\Development\TankEA\TankEAGameModeBase.cpp.obj"
+"E:\TankEA\TankEA_Project\TankEA\Intermediate\Build\Win64\UE4Editor\Development\TankEA\TankEA.init.gen.cpp.obj"
+"E:\TankEA\TankEA_Project\TankEA\Intermediate\Build\Win64\UE4Editor\Development\TankEA\TankEAGameModeBase.gen.cpp.obj"
+"E:\TankEA\TankEA_Project\TankEA\Intermediate\Build\Win64\UE4Editor\Development\TankEA\Default.rc2.res"
+/OUT:"E:\TankEA\TankEA_Project\TankEA\Intermediate\Build\Win64\UE4Editor\Development\TankEA\UE4Editor-TankEA.lib"
+/INCLUDE:IMPLEMENT_MODULE_TankEA

@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "TankEA",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "E:\\1_uni work\\UE_4.23"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-vscode.csharp"
+		]
+	}
+}
